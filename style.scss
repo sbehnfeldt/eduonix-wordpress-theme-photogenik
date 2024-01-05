@@ -1,0 +1,75 @@
+/*
+  Theme Name: Eudonix Theme Project PhotoGenik
+  Author: Stephen Behnfeldt
+  Description: Theme based on Project 3 from Udemy series "Learn to Create WordPress Themes by Building 10 Projects" by Eudonix
+  Version: 1.0
+*/
+
+////////////////////////////////////////////////////////////////////////////////
+// Abstract
+////////////////////////////////////////////////////////////////////////////////
+
+@mixin clearfix {
+    overflow: auto;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Layout
+////////////////////////////////////////////////////////////////////////////////
+
+// Global Reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+
+    /* box-sizing prop does not inherit by default.  Setting its value to "inherit" in the universal selector
+       will make it inherit.  We can then specify a value of "border-box" in the rule for the body selector.
+       Then all elements will have box-sizing of border-box by way of inheritance, rather than the universal
+       selector, which is considered better practice (cite?).
+    */
+    box-sizing: inherit;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+header {
+    input {
+        margin-top: 15px;
+        color: #333;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: #333 solid 1px;
+}
+
+.pic {
+    text-align: center;
+}
