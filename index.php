@@ -10,17 +10,6 @@
 </head>
 
 <body>
-<header class="w3-container w3-teal">
-    <div class="w3-row">
-        <div class="w3-col m9 l9">
-            <h1><span>Photo</span>Genik</h1>
-        </div>
-        <div class="w3-col m3 l3">
-            <input type="text" class="w3-input" placeholder="Search...">
-        </div>
-    </div>
-</header>
-
 <div class="w3-row">
     <!-- Sidebar -->
     <div class="w3-col m3 l3">
@@ -32,48 +21,60 @@
             <li><a href="#">Abstract</a></li>
         </ul>
     </div>
-    <div class="w3-col m9 l9">
-        <div class="w3-row">
-            <div class="w3-col m4 l4 pic">
-                <img src="<?= get_template_directory_uri() ?>/images/1.jpg" alt="">
-                <p>Earum, hic necessitatibus!</p>
-            </div>
-            <div class="w3-col m4 l4 pic">
-                <img src="<?= get_template_directory_uri() ?>/images/2.jpg" alt="">
-                <p>Cupiditate, ex in laboriosam libero quis quos saepe. Eligendi neque repellat tempore.
-                    Animi, enim?</p>
-            </div>
-            <div class="w3-col m4 l4 pic">
-                <img src="<?= get_template_directory_uri() ?>/images/3.jpg" alt="">
-                <p>Cupiditate, ex in laboriosam libero quis quos saepe. Eligendi neque repellat tempore.
-                    Animi, enim?</p>
 
-            </div>
-            <div class="w3-col m4 l4 pic">
-                <img src="<?= get_template_directory_uri() ?>/images/4.jpg" alt="">
-                <p>Earum, hic necessitatibus! Aperiam
-                    assumenda atque delectus dolorum enim harum ipsam iure nam nobis non perspiciatis quis
-                    reprehenderit, saepe sed sequi! Dolore!</p>
-            </div>
-            <div class="w3-col m4 l4 pic">
-                <img src="<?= get_template_directory_uri() ?>/images/5.jpg" alt="">
-                <p>Ab, consequuntur, quas. Aliquam ipsam nam
-                    odit rem? Cupiditate, ex in laboriosam libero quis quos saepe. Eligendi neque repellat tempore.
-                    Animi, enim?</p>
-            </div>
-            <div class="w3-col m4 l4 pic">
-                <img src="<?= get_template_directory_uri() ?>/images/6.jpg" alt="">
-                <p>Aliquid amet cumque deserunt dignissimos
-                    eos harum iure minima nesciunt omnis, quo, ratione, repudiandae unde veniam! Culpa minima quae
-                    quisquam reiciendis voluptas.</p>
+        <main class="w3-col m9 l9">
+            <div class="w3-row">
+                <div class="w3-col m4 l4 pic">
+                    <a href="single.php">
+                        <img class="w3-animate-opacity" src="<?= get_template_directory_uri() ?>/images/1.jpg" alt="">
+                    </a>
+                    <p>Earum, hic necessitatibus!</p>
+                </div>
+                <div class="w3-col m4 l4 pic">
+                    <img class="w3-animate-opacity" src="<?= get_template_directory_uri() ?>/images/2.jpg" alt="">
+                    <p>Cupiditate, ex in laboriosam libero quis quos saepe. Eligendi neque repellat tempore.
+                        Animi, enim?</p>
+                </div>
+                <div class="w3-col m4 l4 pic">
+                    <img class="w3-animate-opacity" src="<?= get_template_directory_uri() ?>/images/3.jpg" alt="">
+                    <p>Cupiditate, ex in laboriosam libero quis quos saepe. Eligendi neque repellat tempore.
+                        Animi, enim?</p>
 
+                </div>
+                <div class="w3-col m4 l4 pic">
+                    <img class="w3-animate-opacity" src="<?= get_template_directory_uri() ?>/images/4.jpg" alt="">
+                    <p>Earum, hic necessitatibus! Aperiam
+                        assumenda atque delectus dolorum enim harum ipsam iure nam nobis non perspiciatis quis
+                        reprehenderit, saepe sed sequi! Dolore!</p>
+                </div>
+                <div class="w3-col m4 l4 pic">
+                    <img class="w3-animate-opacity" src="<?= get_template_directory_uri() ?>/images/5.jpg" alt="">
+                    <p>Ab, consequuntur, quas. Aliquam ipsam nam
+                        odit rem? Cupiditate, ex in laboriosam libero quis quos saepe. Eligendi neque repellat tempore.
+                        Animi, enim?</p>
+                </div>
+                <div class="w3-col m4 l4 pic">
+                    <img class="w3-animate-opacity" src="<?= get_template_directory_uri() ?>/images/6.jpg" alt="">
+                    <p>Aliquid amet cumque deserunt dignissimos
+                        eos harum iure minima nesciunt omnis, quo, ratione, repudiandae unde veniam! Culpa minima quae
+                        quisquam reiciendis voluptas.</p>
+
+                </div>
             </div>
-        </div>
-    </div>
+        </main>
 </div>
 
+<header class="w3-container w3-teal">
+    <div class="w3-row">
+        <div class="w3-col m9 l9">
+            <h1><span>Photo</span>Genik</h1>
+        </div>
+        <div class="w3-col m3 l3">
+            <input type="text" class="w3-input" placeholder="Search...">
+        </div>
+    </div>
+</header>
 
-<main></main>
 
 <footer>
     <p>PhotoGenik &copy; 2023</p>
